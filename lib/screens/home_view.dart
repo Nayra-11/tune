@@ -8,7 +8,7 @@ import '../widgets/white_key.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
-
+// list of tunes
   final List<Tunes> whiteKeys = [
     Tunes(color: Colors.white, sound: 'sounds/note1.wav'),
     Tunes(color: Colors.white, sound: 'sounds/note2.wav'),
